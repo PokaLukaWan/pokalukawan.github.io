@@ -20,6 +20,23 @@
     </p><p>
     Currently trying (and struggling) to work my way through <i>Jech's Set Theory</i>
     </p>
+    <h1>Theorem I like right now:</h1>
+    <p>
+    A filter is an ultrafilter iff it is maximal.
+    </p><p>
+    (\(\Longrightarrow\)) Assume \(F\) is an ultrafilter on \(S\) and \(F\subsetneq F'\).
+    <br>Let \(X\not\in F\) and \(X \in F'\). \(S-X \in F \implies S-X \in F'\), but \(X\in F'\),
+    contradiction.
+    <br><br>
+    (\(\Longleftarrow\)) Assume \(F\) is maximal but not an ultrafilter.<br>
+    Let \(X \not\in F\) and \(S-X \not\in F\), consider \(F \cup \{X\}\).
+    This set has the finite intersection property,
+    otherwise there exists an \(Y\in F\), \(Y \cap X = \emptyset\),
+    <br>which would mean that \(Y \subset S-X \implies S-X\in F\). Contradiction.<br>
+    Therefore \(F\cup\{X\}\) can be extended to a filter on \(S\) which contains \(X\)
+    whilst \(F\) doesn't. Contradiction.
+  
+    </p>
 
 </body>
 
