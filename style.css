@@ -1,12 +1,13 @@
 body{
     background-color: black;
 }
-p{
+.text{
     color: white;
+}
+p{
     font-family: "consolas", sans-serif;
     font-size: 30px
 }
 h1{
-    color: white;
     font-size: 40px;
 }

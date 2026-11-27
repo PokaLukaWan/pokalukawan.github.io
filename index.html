@@ -8,22 +8,23 @@
   <meta name="author" content="Poka Luka Wan">
   <meta name="description" content="Poka's website">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <script src="script.js"></script>
   <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-
-    <h1>Poka Luka Wan</h1>
-    <p>
+    <button type="button" onclick=lightmode()>Light Mode</button>
+    <button type="button" onclick=darkmode() style="background-color: black; color: white">Dark Mode</button><br>
+    <h1 class="text">Poka Luka Wan</h1>
+    <p class="text">
     This website may in the future have some stuff I've done
-    </p><p>
+    </p><p class="text">
     Currently trying (and struggling) to work my way through <i>Jech's Set Theory</i>
     </p>
-    <h1>Theorem I like right now:</h1>
-    <p>
-    A filter is an ultrafilter iff it is maximal.
-    </p><p>
+    <h1 class="text">Theorem I like right now:</h1>
+    <p class="text">
+    A filter is an ultrafilter iff it is maximal. 
+    </p><p class="text">
     (\(\Longrightarrow\)) Assume \(F\) is an ultrafilter on \(S\) and \(F\subsetneq F'\).
     <br>Let \(X\not\in F\) and \(X \in F'\). \(S-X \in F \implies S-X \in F'\), but \(X\in F'\),
     contradiction.
@@ -35,9 +36,8 @@
     <br>which would mean that \(Y \subset S-X \implies S-X\in F\). Contradiction.<br>
     Therefore \(F\cup\{X\}\) can be extended to a filter on \(S\) which contains \(X\)
     whilst \(F\) doesn't. Contradiction.
-  
     </p>
-
+    
 </body>
 
 </html>
